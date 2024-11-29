@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción CS:GO</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Haz tu predicción</h1>
+        <form action="/predict" method="POST">
+            <label for="RoundHeadshots">Muertes por headshots en la ronda:</label>
+            <input type="number" name="RoundHeadshots" required><br>
+
+            <label for="RoundFlankKills">Muertes por flanqueo en la ronda:</label>
+            <input type="number" name="RoundFlankKills" required><br>
+
+            <label for="PrimaryPistol">Muertes con pistola primaria:</label>
+            <input type="number" name="PrimaryPistol" required><br>
+
+            <label for="RoundAssists">Asistencias en la ronda:</label>
+            <input type="number" name="RoundAssists" required><br>
+
+            <label for="PrimarySniperRifle">Muertes con rifle de francotirador primaria:</label>
+            <input type="number" name="PrimarySniperRifle" required><br>
+
+            <label for="MatchKills">Muertes en el partido:</label>
+            <input type="number" name="MatchKills" required><br>
+
+            <button type="submit">Hacer predicción</button>
+        </form>
+    </div>
+</body>
+</html>

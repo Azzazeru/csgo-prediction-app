@@ -1,0 +1,19 @@
+{
+  "name": "csgo-prediction-app",
+  "version": "1.0.0",
+  "description": "Aplicación de predicción de CS:GO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
